@@ -1,0 +1,1 @@
+function login(){let username=document.getElementById("username").value;let password =document.getElementById("password").value;if(username==="student"&&password==="1234 5"){alert("Login Successful!");window.location.href="dashboard.html";}else{document. getElementById("message").innerHTML="Invalid Student ID or Password";}}
